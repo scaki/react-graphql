@@ -1,11 +1,10 @@
-import React from "react";
 import { useForm } from "react-hook-form";
 import { Button } from "primereact/button";
 import { Divider } from "primereact/divider";
 import Form, { FormField } from "../../components/form";
 import TextInput from "../../components/form/text-input";
 import styles from "./register.module.scss";
-import { gql, useMutation, useQuery } from "@apollo/client";
+import { gql, useMutation } from "@apollo/client";
 import { useNavigate } from "react-router-dom";
 
 const Register = () => {

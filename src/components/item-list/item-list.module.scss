@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  min-height: 400px;
+  position: relative;
+  .loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: rgba($color: #000000, $alpha: 0.7);
+    width: 100%;
+    height: 100%;
+  }
+}
