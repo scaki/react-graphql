@@ -18,7 +18,7 @@ const Login = () => {
   `;
   const [login, { loading }] = useMutation(LOGIN);
   const navigate = useNavigate();
-  const defaultValues = { username: "", password: "" };
+  const defaultValues = { username: "admin", password: "admin" };
   const methods = useForm({ defaultValues });
   const onSubmit = (data: any) => {
     login({
